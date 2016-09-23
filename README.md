@@ -1,7 +1,7 @@
 # * Hierarchie
 
 Une petite image pour expliciter la hiérarchie
-![Hierarchie](http://zupimages.net/viewer.php?id=16/38/605y.png)
+![Hierarchie](http://zupimages.net/up/16/38/605y.png)
 
 
 ## *Auteur*
