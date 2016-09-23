@@ -1,8 +1,9 @@
-# * Hierarchie
+# _*Hierarchie*_
 
 Une petite image pour expliciter la hiérarchie
 ![Hierarchie](http://zupimages.net/up/16/38/wd6g.png)
 
+#_*Tableaux Recapitutalifs*_
 
 ## *Auteur*
 | Operation | Verbe |      URL      | Description                                                         |
