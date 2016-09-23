@@ -1,5 +1,10 @@
+# * Hierarchie
 
-# *Auteur*
+Une petite image pour expliciter la hiérarchie
+![Hierarchie](http://zupimages.net/viewer.php?id=16/38/605y.png)
+
+
+## *Auteur*
 | Operation | Verbe |      URL      | Description                                                         |
 |-----------|-------|:-------------:|---------------------------------------------------------------------|
 |Read (all) | GET   |/author        | Affiche la liste de tous les auteurs                                |
@@ -8,7 +13,7 @@
 |Update     | PUT   |/author/id     | Met a jour les infos de cet auteur                                  |
 | Destroy   | DELETE|/author/id     | Supprime cet auteur de la liste des auteurs                         |
 
-# *Article*
+## *Article*
 | Operation | Verbe |      URL      | Description                                                         |
 |-----------|-------|:-------------:|---------------------------------------------------------------------|
 |Read (all) | GET   |/author/id/article        | Affiche la liste de tous les articles de cet auteur                                |
@@ -17,7 +22,7 @@
 |Update     | PUT   |/author/id/article/id     | Met a jour cet article de la liste des articles de cet auteur                                  |
 | Destroy   | DELETE|/author/id/article/id     | Supprime cet article de la liste des articles de l'auteur                         |
 
-# *Commentaire*
+## *Commentaire*
 | Operation | Verbe |      URL      | Description                                                         |
 |-----------|-------|:-------------:|---------------------------------------------------------------------|
 |Read (all) | GET   |/author/id/article/id/comment        | Affiche la liste de tous les commentaires de cet article de cet auteur                                |
@@ -26,20 +31,20 @@
 |Update     | PUT   |/author/id/article/id/comment/id     | Met a jour ce commentaire de cet article de cet auteur                                  |
 | Destroy   | DELETE|/author/id/article/id/comment/id     | Supprime ce commentaire de cet article de l'auteur    |
 
-# *Image*
+## *Image*
 | Operation | Verbe |      URL      | Description                                                         |
 |-----------|-------|:-------------:|---------------------------------------------------------------------|
 |Read (all) | GET   |/author/id/article/id/picture        | Affiche les images de cet article de cet auteur                                |
 |Create     | POST  |/author/id/article/id/picture       | Ajouter une image a cet article de cet auteur                         |
-| Read      | GET   |/author/id/article/id//picture/id     | Affiche cette image de cet article de cet auteur par rapport a l'id entre            |
+| Read      | GET   |/author/id/article/id/picture/id     | Affiche cette image de cet article de cet auteur par rapport a l'id entre            |
 |Update     | PUT   |/author/id/article/id/picture/id     | Met a jour cette image de cet article de cet auteur                                  |
 | Destroy   | DELETE|/author/id/article/id/picture/id     | Supprime cette image de cet article de cet auteur |
 
-# *Commentaire d'image*
+## *Commentaire d'image*
 | Operation | Verbe |      URL      | Description                                                         |
 |-----------|-------|:-------------:|---------------------------------------------------------------------|
 |Read (all) | GET   |/author/id/article/id/picture/id/comment        | Affiche les commentaires de cette image de cet article de cet auteur                                |
 |Create     | POST  |/author/id/article/id/picture/id/comment       | Ajouter un commentaire a cette image de cet article de cet auteur                         |
-| Read      | GET   |/author/id/article/id//picture/id/comment/id     | Affiche ce commentaire de cet cette image de cet article de cet auteur par rapport a l'id entre            |
+| Read      | GET   |/author/id/article/id/picture/id/comment/id     | Affiche ce commentaire de cet cette image de cet article de cet auteur par rapport a l'id entre            |
 |Update     | PUT   |/author/id/article/id/picture/id/comment/id     | Met a jour ce commentaire de cette image de cet article de cet auteur                                  |
 | Destroy   | DELETE|/author/id/article/id/picture/comment/id    | Supprime ce commentaire de cette image de cet article de cet auteur|
